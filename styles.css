@@ -1,0 +1,70 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Encabezados */
+h1 {
+    text-align: center;
+    color: #444;
+    margin-top: 20px;
+}
+
+/* Secciones */
+p, ul {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 0 20px;
+}
+
+/* Listas */
+ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Portada */
+.portada {
+    background-color: #e3e3e3;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.portada p {
+    margin: 5px 0;
+}
+
+/* Datos de contacto */
+.contacto {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ddd;
+    border-top: 2px solid #ccc;
+}
+.portada img {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+}
+
+.contacto img.foto-contacto {
+    display: block;
+    margin: 10px auto;
+    border-radius: 20%; /* Hace la imagen más redonda */
+    max-width: 150px; /* Ajusta el tamaño máximo */
+    max-height: 150px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Agrega un efecto de sombra */
+}
